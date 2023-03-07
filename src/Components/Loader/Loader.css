@@ -1,0 +1,19 @@
+.loader {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    animation: spin 2s ease-in infinite;
+    border-radius: 50%;
+    color: rgb(128, 128, 128);
+    z-index: 10000;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
